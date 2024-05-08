@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Function to display script usage
-echo "
+#echo "
 
                      _           _     _   ____             _       _                   _____                _            
      /\             | |         (_)   | | |  _ \           | |     | |                 / ____|              | |           
